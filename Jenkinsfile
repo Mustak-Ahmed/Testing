@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Index file step') {
             steps { 
-                sh- sudo cp index.html /var/www/html/index.html
+                sh- 'sudo cp index.html /var/www/html/index.html'
             }
         }
     }
